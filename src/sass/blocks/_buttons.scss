@@ -20,4 +20,23 @@
         height: 55px;
         font-size: 16px;
     }
+    &_mini {
+        width: 135px;
+        height: 44px;
+        font-size: 14px;
+    }
+    &_effect1 {
+        transition: 0.5s all;
+        &:hover {
+            border: 1px solid #FFF;
+        }
+    }
+    &_effect2 {
+        transition: 0.5s all;
+        &:hover {
+            border: 1px solid #555;
+            background-color: #FFF;
+            color: $main-color;
+        } 
+    }
 }
